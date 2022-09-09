@@ -77,25 +77,71 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition of 8 bit ALP 
+```
+name "ADDITION"
+org 100h
+MOV AH,05H;
+MOV BH,02H;
+ADD AH,BH;
+MOV CH,AH;
+MOV AH,00H;
+HLT;
+```
 
+## Output 
+![image](https://user-images.githubusercontent.com/93427208/189380235-0f94d893-9387-4c41-8216-84832b06dde5.png)
 
-
-## Output  
  
-## Subtraction   of 8 bit numbers  ALP 
+## Subtraction of 8 bit ALP 
+```
+name "SUBTRACTION"
+org 100h
+MOV AH,09H;
+MOV BH,03H;
+SUB AH,BH;
+MOV CH,AH;
+MOV AH,00H;
+HLT;
+```
  
+## Output 
+![image](https://user-images.githubusercontent.com/93427208/189380708-5ef01727-c86b-4ff6-ac39-71ddd94b1f3a.png)
+
+## Multiplication of 8 bit ALP 
+```
+name "MULTIPLICATION"
+org 700h
+MOV AL,15H;
+MOV BL,03H;
+MUL BL;
+MOV CL,AL;
+MOV AL,00H;
+HLT;
+```
 ## Output  
-## Multiplication alp 
- ## Output  
+![image](https://user-images.githubusercontent.com/93427208/189381104-d1543c0b-0646-40c5-b13b-8d62e6a5c489.png)
 
 
-## Division alp 
+
+## Division of 8 bit ALP 
+```
+name "DIVISION"
+org 700h
+MOV AL,40H;
+MOV BL,02H;
+DIV BL;
+MOV CL,AL;
+MOV AL,00H;
+HLT;
+```
 
 ## Output  
+![image](https://user-images.githubusercontent.com/93427208/189381324-48491b57-a919-4be5-907c-71a176e336e6.png)
 
 
-## Result :
+## Result
+Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
  
 
 
