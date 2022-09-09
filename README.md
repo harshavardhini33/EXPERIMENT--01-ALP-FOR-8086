@@ -1,15 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
 ```
 Name : HARSHAVARDHINI M
-
 Roll no : 212221240015
-
 Date of experiment : 9th SEPTEMBER 2022
 ```
-
-
-
-
 ## Aim: 
 To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 
@@ -36,8 +30,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 9.	Click on emulate to start emulation 
 
-
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
+
 
 
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
